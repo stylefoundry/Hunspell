@@ -1,7 +1,7 @@
 require 'mkmf'
 
 # Min version
-HUNSPELL_VER='1.2'
+HUNSPELL_VER='1.3'
 
 find_library("hunspell-#{HUNSPELL_VER}", 'Hunspell_create')
 
